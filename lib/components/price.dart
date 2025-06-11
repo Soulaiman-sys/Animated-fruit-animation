@@ -4,9 +4,9 @@ import '../constants.dart';
 
 class Price extends StatelessWidget {
   const Price({
-    Key? key,
+    super.key,
     required this.amount,
-  }) : super(key: key);
+  });
   final String amount;
 
   @override

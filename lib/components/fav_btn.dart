@@ -3,9 +3,9 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 class FavBtn extends StatelessWidget {
   const FavBtn({
-    Key? key,
+    super.key,
     this.radius = 12,
-  }) : super(key: key);
+  });
 
   final double radius;
 

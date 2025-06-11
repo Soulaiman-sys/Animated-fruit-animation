@@ -5,7 +5,7 @@ import 'package:fruit_animation/controllers/home_controller.dart';
 import 'cart_detailsview_card.dart';
 
 class CartDetailsView extends StatelessWidget {
-  const CartDetailsView({Key? key, required this.controller}) : super(key: key);
+  const CartDetailsView({super.key, required this.controller});
 
   final HomeController controller;
 
@@ -24,7 +24,9 @@ class CartDetailsView extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                ///Todo: create custom sheep for animation
+              },
               child: Text("Next - \$30"),
             ),
           )

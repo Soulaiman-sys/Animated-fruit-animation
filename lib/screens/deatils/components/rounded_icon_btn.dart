@@ -4,11 +4,11 @@ import '../../../constants.dart';
 
 class RoundIconBtn extends StatelessWidget {
   const RoundIconBtn({
-    Key? key,
+    super.key,
     required this.iconData,
     this.color = primaryColor,
     required this.press,
-  }) : super(key: key);
+  });
 
   final IconData iconData;
   final Color color;

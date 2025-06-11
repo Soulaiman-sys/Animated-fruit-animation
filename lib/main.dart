@@ -4,7 +4,7 @@ import 'package:fruit_animation/screens/home/home_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
-  runApp( MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {

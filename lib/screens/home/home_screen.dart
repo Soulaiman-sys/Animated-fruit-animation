@@ -66,7 +66,7 @@ class HomeScreen extends StatelessWidget {
                               ),
                             ),
                             child: GridView.builder(
-                              itemCount: demo_products.length,
+                              itemCount: demoProducts.length,
                               gridDelegate:
                                   SliverGridDelegateWithFixedCrossAxisCount(
                                 crossAxisCount: 2,
@@ -75,7 +75,7 @@ class HomeScreen extends StatelessWidget {
                                 crossAxisSpacing: defaultPadding,
                               ),
                               itemBuilder: (context, index) => ProductCard(
-                                product: demo_products[index],
+                                product: demoProducts[index],
                                 press: () {
                                   Navigator.push(
                                     context,
@@ -89,10 +89,10 @@ class HomeScreen extends StatelessWidget {
                                           FadeTransition(
                                         opacity: animation,
                                         child: DetailsScreen(
-                                          product: demo_products[index],
+                                          product: demoProducts[index],
                                           onProductAdd: () {
                                             controller.addProductToCart(
-                                                demo_products[index]);
+                                                demoProducts[index]);
                                           },
                                         ),
                                       ),
