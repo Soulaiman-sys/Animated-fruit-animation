@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fruit_animation/controllers/home_controller.dart';
-import 'package:fruit_animation/models/Product.dart';
+import 'package:fruit_animation/models/product.dart';
 import 'package:fruit_animation/screens/deatils/details_screen.dart';
 
 import '../../constants.dart';

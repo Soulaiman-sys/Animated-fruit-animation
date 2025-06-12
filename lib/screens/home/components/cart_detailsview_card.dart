@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fruit_animation/components/price.dart';
-import 'package:fruit_animation/models/ProductItem.dart';
+import 'package:fruit_animation/models/productItem.dart';
 
 import '../../../constants.dart';
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fruit_animation/components/fav_btn.dart';
 import 'package:fruit_animation/components/price.dart';
-import 'package:fruit_animation/models/Product.dart';
+import 'package:fruit_animation/models/product.dart';
 
 import 'package:fruit_animation/constants.dart';
 
@@ -32,11 +32,11 @@ class ProductCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Hero(
-              tag: product.title!,
+              tag: product.title ?? 'UNKNOWN',
               child: Image.asset(product.image!),
             ),
             Text(
-              product.title!,
+              product.title ?? 'UNKNOWN',
               style: Theme.of(context)
                   .textTheme
                   .titleMedium!
